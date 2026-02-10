@@ -45,6 +45,6 @@ Traditional Transformers use absolute/fixed positional encoding. I introduced **
 ---
 
 ## 🛠️ Tech Stack
-- **Frameworks:** PyTorch, TensorFlow, NumPy, Pandas, 
+- **Frameworks:** PyTorch, TensorFlow, NumPy, Pandas, Scipy, keras, sklearn
 - **Optimization:** Gurobi (for Mean-Variance Quadratic Programming)
 - **Environment:** Python, CUDA
