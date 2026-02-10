@@ -10,21 +10,26 @@ This repository contains the implementation of my Bachelor's Thesis: **"Research
 
 ## 📊 Methodology
 
-### 1. Data Pipeline
+###  Data Pipeline
 - Data is collected from BigQuant using SQL commands.
 - **Universe:** A-share market.
 - **Preprocessing:** Z-score normalization (极差标准化 doesn't work well during the test phrase), outlier removal, and handling of missing values.
 - **Features:** <img width="1178" height="886" alt="image" src="https://github.com/user-attachments/assets/9a0a3b9f-3424-4769-8221-b392de24ff25" />
 
 
-### 2. Model: Conv-Transformer
+###  Model: Conv-Transformer
 Traditional Transformers use absolute/fixed positional encoding. I introduced **Convolutional Positional Encoding** to:
 - Capture local spatial-temporal correlations within local windows.
 - Improve the model's sensitivity to short-term price fluctuations in the A-share market.
-- <img width="964" height="369" alt="image" src="https://github.com/user-attachments/assets/625c366d-7bcc-4f8c-9e85-4aee96731a38" />
 
+---
 
-### 3. Portfolio Optimization
+### Model Comparisons
+<img width="964" height="369" alt="image" src="https://github.com/user-attachments/assets/625c366d-7bcc-4f8c-9e85-4aee96731a38" />
+
+---
+
+### Portfolio Optimization
 <img width="459" height="238" alt="image" src="https://github.com/user-attachments/assets/8b6f5c5f-9d94-48dc-b378-3c11ee993370" />
 
 <img width="1000" height="609" alt="image" src="https://github.com/user-attachments/assets/3587755a-b8bc-4be7-8076-8a8a41171ef1" />
