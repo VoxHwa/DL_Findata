@@ -12,7 +12,7 @@ This repository contains the implementation of my Bachelor's Thesis: **"Research
 
 ###  Data Pipeline
 - Data is collected from BigQuant using SQL commands.
-- **Universe:** A-share market.
+- **Universe:** A-share market (A股市场包括上证和深证).
 - **Preprocessing:** Z-score normalization (The Min-Max normalization doesn't work well during the testing phase because of its poor robustness), outlier removal, and handling of missing values.
 - **Features:** <img width="1178" height="886" alt="image" src="https://github.com/user-attachments/assets/9a0a3b9f-3424-4769-8221-b392de24ff25" />
 
