@@ -4,7 +4,7 @@ This repository contains the implementation of my Bachelor's Thesis: **"Research
 
 ## 🚀 Key Highlights
 - **Model Architecture:** Transformer with **Convolutional Positional Encoding (CPE)** to better capture local temporal dependencies in high-frequency financial time series. The best model predicts with a **direction accuracy of 91.64% and MAE of 0.588(1e-2)**.
-- **Improved Mean-Variance model in A-share market:** Achieved a **Sharpe Ratio of 1.99** and a **Beta of 0.06** in historical backtesting (with 投资组合风险系数 risk factor alpha=1e-3).
+- **Improved Mean-Variance model in A-share market:** Achieved a **Sharpe Ratio of 1.99** and a **Beta of 0.06** in historical backtesting (with 投资组合风险系数alpha=1e-3 defined in MV model).
 
 ---
 
